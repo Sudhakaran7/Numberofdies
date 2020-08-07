@@ -1,0 +1,48 @@
+Ravi is playing with dice d,each die has f faces, which is numbered 1,2.......f
+Return the number of possible ways (out of fd total ways) modulo 10^9 + 7 to roll the dice so the sum of the face up numbers equals target.
+
+Input description:
+First line contains d f target, d denotes dice , f denotes faces of dice, target denotes the sum we have to form with the given dice.
+
+Output Description:
+the number of possible ways to form the given target
+
+Sample Input:
+2 6 7
+
+Sample Output:
+6
+
+Explanation:
+the number of possible ways are:
+1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
+
+Sample Input:
+1 4 5
+
+Sample Output:
+0
+
+Sample Input:
+2 9 12
+
+Sample Output:
+7
+
+Sample Input:
+3 8 22
+
+Sample Output:
+6
+
+Sample Input:
+4 11 33
+
+Sample Output:
+360
+
+Sample Input:
+5 33 131
+
+Sample Output:
+73790
